@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기 소개 페이지</title>
+    <link rel="stylesheet" href="introduce.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Introduce : 문재혁</h1>
+    </div>
+    <div class="container" id="appContainer"></div>
+
+    <script>
+        const a = "문재혁";
+        const b = "25살(00년생)";
+        const c = "대한민국";
+        const d = "울산";
+        const e = "부산 전포동";
+        const f = "게임,노래";
+        const g = "춤";
+        const h = "경성대학교 소프트웨어학과 3학년";
+        const i = "저는 건강하게 졸업하는게 목표입니다!";
+
+        const appContainer = document.getElementById('appContainer');
+
+        const div = document.createElement('div');
+        div.className = 'container';
+
+        const A = document.createElement('h4');
+        A.textContent = `이름 : ${a}`;
+        div.appendChild(A);
+
+        const B = document.createElement('h4');
+        B.textContent = `나이 : ${b}`;
+        div.appendChild(B);
+
+        const C = document.createElement('h4');
+        C.textContent = `국적 : ${c}`;
+        div.appendChild(C);
+
+        const D = document.createElement('h4');
+        h4Adress.textContent = `고향 : ${d}`;
+        div.appendChild(D);
+
+        const E = document.createElement('h4');
+        E.textContent = `거주지 : ${e}`;
+        div.appendChild(E);
+
+        const F = document.createElement('h4');
+        F.textContent = `취미 : ${f}`;
+        div.appendChild(F);
+
+        const G = document.createElement('h4');
+        G.textContent = `특기 : ${g}`;
+        div.appendChild(G);
+
+        const H = document.createElement('h4');
+        H.textContent = '학사정보';
+        div.appendChild(H);
+
+        const pH = document.createElement('p');
+        pH.textContent = `${h}`;
+        div.appendChild(pH);
+
+        const I = document.createElement('h4');
+        I.textContent = '목표';S
+        div.appendChild(I);
+
+        const pI = document.createElement('p');
+        pI.textContent = `${i}`;
+        div.appendChild(pI);
+
+        appContainer.appendChild(div);
+    </script>
+</body>
+</html>
