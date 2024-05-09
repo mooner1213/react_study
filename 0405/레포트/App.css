@@ -1,0 +1,53 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.app-container {
+  width: 80%;
+  padding: 20px;
+  background-color: beige;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: black;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.inputField {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.terms {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.submit-button {
+  text-align: left;
+}
